@@ -24,7 +24,7 @@ Podstawowe czytanie lokalnych dokumentów, diagramy Mermaid, matematyka KaTeX i 
 
 - otwierasz stronę WWW lub adres lokalnego serwera;
 - dokument wskazuje obrazy lub inne zasoby znajdujące się w internecie;
-- zatwierdzasz wyszukiwanie frazy w pasku adresu — zapytanie jest wtedy kierowane do Google;
+- zatwierdzasz wyszukiwanie frazy w pasku adresu - zapytanie jest wtedy kierowane do Google;
 - otwierasz zewnętrzny odnośnik, stronę pomocy albo tę politykę;
 - system lub aplikacja sprawdza dostępność aktualizacji.
 

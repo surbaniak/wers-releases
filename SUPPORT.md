@@ -4,7 +4,7 @@ Wers to czytnik Markdown, TXT i HTML dla **macOS 27 lub nowszego i Maców z Appl
 
 ## Kontakt
 
-Napisz na **kontakt@appfly.pl**. Podaj wersję Wers i macOS, opisz problem i — jeśli to możliwe — kroki jego odtworzenia. Nie wysyłaj poufnych dokumentów; najlepiej przygotować krótki przykład bez danych osobowych.
+Napisz na **kontakt@appfly.pl**. Podaj wersję Wers i macOS, opisz problem i - jeśli to możliwe - kroki jego odtworzenia. Nie wysyłaj poufnych dokumentów; najlepiej przygotować krótki przykład bez danych osobowych.
 
 Twórca: **Sebastian Urbaniak · AppFly | Flying Pixel**. [appfly.pl](https://appfly.pl) · +48 570 800 060.
 
@@ -16,7 +16,7 @@ Zaczynasz od pustego okna. Wybierz **Plik → Otwórz…** (⌘O), **Otwórz fol
 
 ## Zapis nowego dokumentu
 
-Użyj ⌘N albo **Nowy ze schowka** (⌘⇧N). Wklej i popraw tekst, wybierz Markdown lub TXT oraz folder, a następnie **Zapisz i otwórz**. Możesz zapamiętać folder domyślny. Wers nie nadpisuje istniejącego pliku — przy zajętej nazwie wybiera kolejną wolną nazwę.
+Użyj ⌘N albo **Nowy ze schowka** (⌘⇧N). Wklej i popraw tekst, wybierz Markdown lub TXT oraz folder, a następnie **Zapisz i otwórz**. Możesz zapamiętać folder domyślny. Wers nie nadpisuje istniejącego pliku - przy zajętej nazwie wybiera kolejną wolną nazwę.
 
 Istniejące dokumenty otwierają się do czytania. Zmiany zapisane w zewnętrznym edytorze odświeżają podgląd Wers.
 
