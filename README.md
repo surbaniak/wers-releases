@@ -1,6 +1,6 @@
 # Wers
 
-Prosty, szybki czytnik Markdown dla macOS z możliwością tworzenia nowych dokumentów.
+Prosty, szybki czytnik Markdown, TXT i HTML dla macOS z możliwością tworzenia nowych dokumentów.
 
 - Jasny, ciemny i szronowy motyw z natywnymi elementami macOS.
 - Markdown, tabele, obrazy, kod, Mermaid i wzory matematyczne.
@@ -17,3 +17,5 @@ Rozpakuj `Wers.zip`, przenieś `Wers.app` do Aplikacji i uruchom. Paczki wydań 
 To repozytorium zawiera gotowe wydania i kanał aktualizacji. Kod źródłowy aplikacji jest przechowywany osobno w repozytorium prywatnym.
 
 Błędy można zgłaszać w [Issues](https://github.com/surbaniak/wers-releases/issues). Nie dołączaj prywatnych dokumentów ani danych poufnych do publicznych zgłoszeń.
+
+[Pomoc i kontakt](SUPPORT.md) · [Polityka prywatności](PRIVACY.md)
