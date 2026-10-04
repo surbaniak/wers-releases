@@ -1,45 +1,79 @@
-# Pomoc Wers
+# Wers - pomoc / support
 
-Wers to czytnik Markdown, TXT i HTML dla **macOS 27 lub nowszego i Maców z Apple Silicon**. Interfejs jest po polsku.
+Wers działa na **macOS 27 lub nowszym, na Macach z Apple Silicon**. Instalacja i aktualizacje pochodzą z Mac App Store. Funkcje oznaczone **1.8** wymagają tej wersji lub nowszej.
 
-## Kontakt
+Wers requires **macOS 27 or later and a Mac with Apple silicon**. Install and update it through the Mac App Store. Features marked **1.8** require that version or later.
 
-Napisz na **kontakt@appfly.pl**. Podaj wersję Wers i macOS, opisz problem i - jeśli to możliwe - kroki jego odtworzenia. Nie wysyłaj poufnych dokumentów; najlepiej przygotować krótki przykład bez danych osobowych.
+## Kontakt / Contact
 
-Twórca: **Sebastian Urbaniak · AppFly | Flying Pixel**. [appfly.pl](https://appfly.pl) · +48 570 800 060.
+**kontakt@appfly.pl** - podaj wersję Wers i macOS oraz kroki odtworzenia problemu. Wystarczy mały przykład bez poufnych danych.
 
-## Pierwsze uruchomienie
+**kontakt@appfly.pl** - include your Wers and macOS versions and steps to reproduce the issue. Please use a small example without confidential information.
 
-Zaczynasz od pustego okna. Wybierz **Plik → Otwórz…** (⌘O), **Otwórz folder…** (⌘⇧O) albo przeciągnij dokument do okna. Obsługiwane rozszerzenia to `.md`, `.markdown`, `.txt`, `.html` i `.htm`.
+Sebastian Urbaniak · AppFly | Flying Pixel · [appfly.pl](https://appfly.pl)
 
-**Ostatnio otwierane** pokazują wspólną listę dokumentów i folderów. Strony WWW nie trafiają na tę listę. Menu pod prawym przyciskiem pozwala pokazać plik w Finderze, zmienić nazwę albo usunąć tylko wpis z historii. Zamknięcie folderu nie usuwa plików.
+## Polski
 
-## Zapis nowego dokumentu
+### Otwieranie i tworzenie dokumentów
 
-Użyj ⌘N albo **Nowy ze schowka** (⌘⇧N). Wklej i popraw tekst, wybierz Markdown lub TXT oraz folder, a następnie **Zapisz i otwórz**. Możesz zapamiętać folder domyślny. Wers nie nadpisuje istniejącego pliku - przy zajętej nazwie wybiera kolejną wolną nazwę.
+Użyj **Plik → Otwórz** (⌘O), **Otwórz folder** (⇧⌘O) albo przeciągnij plik do okna. Wers obsługuje `.md`, `.markdown`, `.txt`, `.html` i `.htm`. ⌘N tworzy nowy dokument Markdown/TXT, a ⇧⌘N zaczyna od tekstu ze schowka. Wybierz folder, nazwę i format, a następnie Zapisz i otwórz.
 
-Istniejące dokumenty otwierają się do czytania. Zmiany zapisane w zewnętrznym edytorze odświeżają podgląd Wers.
+### Edycja istniejących plików (1.8)
 
-## Czytanie
+Przełącz **Podgląd / Edycja** przez ⌘E. ⌘S zapisuje zmiany w pliku, ⇧⌘S zapisuje kopię, ⌘Z cofa, a ⌥⌘F otwiera wyszukiwanie z zamianą w edytorze. Edycja HTML dotyczy kodu źródłowego lokalnego pliku. Strony WWW pozostają do podglądu.
 
-Przełączaj motywy Jasny, Ciemny i Szron w pasku narzędzi. Menu typografii pozwala wybrać czcionkę systemową lub Source Serif 4. ⌘+, ⌘− i ⌘0 zmieniają rozmiar tekstu. ⌘F uruchamia wyszukiwanie. Szron uwzględnia ustawienie macOS „Ogranicz przezroczystość”.
+Podgląd niezapisanej treści nie zapisuje pliku na dysku. Gdy plik zmienił się poza Wers, aplikacja ostrzega przed nadpisaniem. Zapisz kopię, aby zachować swój szkic. Zamknięcie niezapisanych zmian wymaga decyzji.
 
-## HTML i strony WWW
+### Panel, przypięcia i historia (1.8)
 
-Otwórz plik HTML albo naciśnij ⌘L i wpisz adres WWW lub localhost. Możesz ustawić rozmiary telefonu, tabletu, desktopu, 4K albo własne. Opcja **Dopasuj** zmniejsza prezentację przy zachowaniu viewportu strony. To podgląd WebKit, nie emulator urządzenia.
+Kliknij prawym przyciskiem plik lub folder i wybierz **Przypnij**. Oddzielna sekcja zachowuje wpisy po restarcie i wyczyszczeniu historii. **Odepnij** usuwa wyłącznie przypięcie. Ostatnio otwierane pozycje zachowują widoczną kolejność podczas otwierania; ponowne wybranie historii ją odświeża. Usuwanie wpisu z historii i zamknięcie folderu nie usuwa plików z dysku.
 
-Kliknij pole adresu, aby je rozwinąć. Przycisk **Otwórz** zatwierdza adres, a **Szukaj** wyszukuje wpisaną frazę w Google. ⌘R odświeża podgląd.
+### Czytanie i HTML
 
-Projekty wymagające serwera należy najpierw uruchomić swoim narzędziem, a potem otworzyć ich adres w Wers.
+W pasku narzędzi wybierz Jasny, Ciemny albo Szron; w Aa ustaw krój i rozmiar. ⌘F wyszukuje tekst. Szron uwzględnia systemowe ograniczenie przezroczystości.
 
-## Dostęp do plików w wydaniu Mac App Store
+Otwórz lokalny HTML albo wpisz adres przez ⌘L. Presety obejmują telefon 390×844, tablet 820×1180, laptop 1440×900, Full HD 1920×1080 i 4K 3840×2160. Dostępne są własne wymiary, obrót i Dopasuj. To rzeczywiste wymiary CSS w WebKit, bez emulacji urządzeń lub innych silników. ⌘R odświeża stronę. Projekt wymagający serwera uruchom najpierw swoim narzędziem, następnie wpisz jego lokalny adres.
 
-Wybierając plik lub folder w standardowym oknie macOS, udostępniasz go Wers. Przy lokalnym HTML lub obrazach względnych aplikacja może poprosić o udostępnienie folderu dokumentu. Jest to potrzebne do odczytu powiązanych zasobów i zmian nazw. Wybór folderu jest zapamiętywany przez systemowe zakładki bezpieczeństwa.
+### Język i samouczek (1.8)
 
-Jeżeli plik został przeniesiony albo dostęp przestał działać, otwórz go lub jego folder ponownie przez menu **Plik**.
+**Wers → Ustawienia** (⌘,) pozwala wybrać Systemowy, Polski albo English. Zmiana obowiązuje po restarcie; wcześniej zapisz otwarte szkice. W trybie systemowym Wers uruchamia się po polsku na polskim systemie, w pozostałych językach po angielsku. Dokumenty nie są tłumaczone.
 
-## Aktualizacje
+Samouczek przy pierwszym uruchomieniu i Co nowego po aktualizacji można pominąć. Pokazy odtwarzają się automatycznie. Do obu prezentacji wrócisz z menu **Pomoc**.
 
-Wers z Mac App Store otrzymuje aktualizacje przez sklep Apple. Wers pobrany ze strony ma wbudowany mechanizm aktualizacji GitHub Releases. Nie trzeba instalować obu wydań.
+### Dostęp do plików
 
-[Polityka prywatności](PRIVACY.md) · [Wydania bezpośrednie](https://github.com/surbaniak/wers-releases/releases)
+Wybór pliku lub folderu w standardowym panelu macOS udziela aplikacji dostępu do odczytu i zapisu. Dla lokalnych zasobów HTML lub obrazów wybierz również folder dokumentu. Jeśli plik przeniesiono albo dostęp wygasł, otwórz plik lub folder ponownie. Lokalne dokumenty, fonty, diagramy i wzory działają offline; strony WWW i zasoby sieciowe wymagają internetu.
+
+## English
+
+### Open and create documents
+
+Use **File > Open** (⌘O), **Open Folder** (⇧⌘O), or drag a file into the window. Supported extensions are `.md`, `.markdown`, `.txt`, `.html` and `.htm`. ⌘N creates a Markdown/TXT document; ⇧⌘N starts from clipboard text. Choose a folder, name and format, then Save and Open.
+
+### Edit existing files (1.8)
+
+Switch **Preview / Edit** with ⌘E. ⌘S saves, ⇧⌘S saves a copy, ⌘Z undoes, and ⌥⌘F opens Find and Replace in the editor. HTML editing changes a local file's source code. Websites are preview-only.
+
+Previewing unsaved text does not save it to disk. Wers warns when a file has changed outside the app; save a copy to keep your draft. Closing unsaved changes requires a decision.
+
+### Sidebar, pinned items and history (1.8)
+
+Right-click a file or folder and choose **Pin**. The separate section persists across restarts and clearing history. **Unpin** removes only the pin. Existing recent items stay in place while you open them; selecting the recent view again refreshes the order. Removing history entries or closing a folder does not delete files.
+
+### Reading and HTML
+
+Choose Light, Dark or Frost in the toolbar and adjust typography under Aa. ⌘F finds text. Frost respects the system's Reduce Transparency setting.
+
+Open local HTML or enter a URL with ⌘L. Presets include Phone 390×844, Tablet 820×1180, Laptop 1440×900, Full HD 1920×1080 and 4K 3840×2160. Use custom dimensions, rotation and Fit. These are real CSS dimensions in WebKit, not device or cross-browser emulation. ⌘R reloads. Start server-based local projects with your own tools, then enter their local address.
+
+### Language and tour (1.8)
+
+**Wers > Settings** (⌘,) offers System Default, Polski and English. Restart to apply a language change; save open drafts first. System Default uses Polish on Polish systems and English otherwise. Your documents are not translated.
+
+You can skip the first-launch tour and What's New. Demonstrations play automatically. Reopen either presentation from **Help**.
+
+### File access
+
+Selecting a file or folder in the standard macOS panel grants reading and writing access. Select the containing folder for related local HTML resources or images. If a file moved or access expired, open the file or folder again. Local documents, fonts, diagrams and equations work offline; websites and remote resources need the internet.
+
+[Privacy policy / Polityka prywatności](PRIVACY.md) · [Wers in the Mac App Store](https://apps.apple.com/app/id6816654751)
