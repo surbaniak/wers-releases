@@ -1,8 +1,12 @@
 # Wers - pomoc / support
 
-Wers działa na **macOS 27 lub nowszym, na Macach z Apple Silicon**. Instalacja i aktualizacje pochodzą z Mac App Store. Funkcje oznaczone **1.8** wymagają tej wersji lub nowszej.
+Wers 1.9 wymaga **macOS 26 lub nowszego i Maca z Apple Silicon**. Wersja 1.8 wymaga macOS 27. Instalacja i aktualizacje pochodzą z Mac App Store. Funkcje oznaczone numerem wersji wymagają tej wersji lub nowszej.
 
-Wers requires **macOS 27 or later and a Mac with Apple silicon**. Install and update it through the Mac App Store. Features marked **1.8** require that version or later.
+Wers 1.9 requires **macOS 26 or later and a Mac with Apple silicon**. Wers 1.8 requires macOS 27. Install and update it through the Mac App Store. Features marked with a version number require that version or later.
+
+Wers 1.9 jest nadchodzącą aktualizacją. Do czasu jej publikacji po ocenie Apple w sklepie dostępne jest wydanie 1.8.
+
+Wers 1.9 is an upcoming update. Until it is released after Apple review, version 1.8 remains available in the store.
 
 ## Kontakt / Contact
 
@@ -23,6 +27,16 @@ Użyj **Plik → Otwórz** (⌘O), **Otwórz folder** (⇧⌘O) albo przeciągni
 Przełącz **Podgląd / Edycja** przez ⌘E. ⌘S zapisuje zmiany w pliku, ⇧⌘S zapisuje kopię, ⌘Z cofa, a ⌥⌘F otwiera wyszukiwanie z zamianą w edytorze. Edycja HTML dotyczy kodu źródłowego lokalnego pliku. Strony WWW pozostają do podglądu.
 
 Podgląd niezapisanej treści nie zapisuje pliku na dysku. Gdy plik zmienił się poza Wers, aplikacja ostrzega przed nadpisaniem. Zapisz kopię, aby zachować swój szkic. Zamknięcie niezapisanych zmian wymaga decyzji.
+
+### Spis treści i PDF (1.9)
+
+W Markdownie najedź na kreski przy tekście, aby zobaczyć podgląd sekcji, i kliknij nagłówek, aby do niego przejść. ⇧⌘T otwiera pełny spis treści. HTML i TXT nie otrzymują spisu treści.
+
+⌘P otwiera eksport Markdownu lub lokalnego HTML do PDF. Wybierz pion lub poziom, A4/Letter i marginesy, obejrzyj podgląd i zapisz wynik. Możesz wyeksportować bieżące niezapisane zmiany; plik źródłowy pozostaje bez zmian. Eksport korzysta z systemowego WebKit i drukowania macOS, bez instalowania Chrome. TXT i strony WWW nie są objęte eksportem.
+
+### Edytor kodu HTML (1.9)
+
+Numeracja odnosi się do rzeczywistych linii źródła. Zawijanie zmienia tylko widok. **Formatuj kod** (⌥⇧F) porządkuje wcięcia; ⌘Z cofa formatowanie, a ⌘S zapisuje wynik. Stonowana czerwień wskazuje podstawowe problemy składni przy linii i w jej tle. Sprawdzanie nie obejmuje CSS, JavaScript ani dostępności.
 
 ### Panel, przypięcia i historia (1.8)
 
@@ -55,6 +69,16 @@ Use **File > Open** (⌘O), **Open Folder** (⇧⌘O), or drag a file into the w
 Switch **Preview / Edit** with ⌘E. ⌘S saves, ⇧⌘S saves a copy, ⌘Z undoes, and ⌥⌘F opens Find and Replace in the editor. HTML editing changes a local file's source code. Websites are preview-only.
 
 Previewing unsaved text does not save it to disk. Wers warns when a file has changed outside the app; save a copy to keep your draft. Closing unsaved changes requires a decision.
+
+### Table of contents and PDF (1.9)
+
+In Markdown, hover over the heading rail to preview a section and click to jump to it. ⇧⌘T opens the full heading list. HTML and TXT have no outline.
+
+⌘P opens PDF export for Markdown or local HTML. Choose portrait or landscape, A4/Letter and margins, review the pages and save. Current unsaved edits can also be exported; the source file stays unchanged. Export uses system WebKit and macOS printing, with no Chrome installation. TXT and websites are not included in PDF export.
+
+### HTML source editor (1.9)
+
+Numbers refer to actual source lines. Wrapping changes only the view. **Format Code** (⌥⇧F) arranges indentation; ⌘Z undoes formatting and ⌘S saves. Muted red markers and row highlights indicate basic syntax issues. Checks do not cover CSS, JavaScript or accessibility.
 
 ### Sidebar, pinned items and history (1.8)
 
