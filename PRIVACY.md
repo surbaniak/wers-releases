@@ -1,6 +1,6 @@
 # Polityka prywatności Wers
 
-Aktualizacja: 27 września 2026 r.
+Aktualizacja: 12 października 2026 r.
 
 Wers jest aplikacją dla macOS stworzoną przez **Flying Pixel Sebastian Urbaniak (AppFly)**. Kontakt w sprawach prywatności i aplikacji: **kontakt@appfly.pl**. Informacje o twórcy i kontakt: [appfly.pl](https://appfly.pl).
 
@@ -9,6 +9,10 @@ Wers jest aplikacją dla macOS stworzoną przez **Flying Pixel Sebastian Urbania
 Wers odczytuje wybrane przez Ciebie pliki Markdown, TXT i HTML oraz wskazane foldery. Nie wysyła treści tych dokumentów ani zawartości schowka do twórcy aplikacji. Nowe dokumenty zapisuje w wybranym przez Ciebie miejscu. Nie wymaga konta, klucza API ani synchronizacji z chmurą. Nie generuje odpowiedzi AI ani transkrypcji nagrań.
 
 Jeśli sam wybierzesz folder synchronizowany przez iCloud Drive lub inną usługę, synchronizację prowadzi ta usługa zgodnie z jej ustawieniami i zasadami; Wers nie prowadzi własnej synchronizacji.
+
+## Lokalne szkice i style w Wers 2.0
+
+Wers zapisuje lokalne szkice i kopie odzyskiwania w danych aplikacji na Twoim Macu, aby umożliwić odzyskanie niezapisanej pracy. Mogą zawierać treść dokumentu. Nie są przesyłane do twórcy aplikacji. Automatyczny zapis można wyłączyć w ustawieniach; kopia odzyskiwania nie zastępuje zapisu pliku w wybranym folderze. Własne style PDF, w tym wybrane logo, również są przechowywane lokalnie i są udostępniane poza urządzeniem tylko wtedy, gdy sam wyeksportujesz i przekażesz plik.
 
 ## Ustawienia i historia
 
