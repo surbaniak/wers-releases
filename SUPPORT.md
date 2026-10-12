@@ -4,9 +4,9 @@ Wers 1.9 wymaga **macOS 26 lub nowszego i Maca z Apple Silicon**. Wersja 1.8 wym
 
 Wers 1.9 requires **macOS 26 or later and a Mac with Apple silicon**. Wers 1.8 requires macOS 27. Install and update it through the Mac App Store. Features marked with a version number require that version or later.
 
-Wers 1.9 jest nadchodzącą aktualizacją. Do czasu jej publikacji po ocenie Apple w sklepie dostępne jest wydanie 1.8.
+Wers 1.9 jest dostępny w sklepie. Poniżej opisano również funkcje aktualizacji 2.0, przygotowanej do oceny Apple. Funkcje te wymagają wersji 2.0.
 
-Wers 1.9 is an upcoming update. Until it is released after Apple review, version 1.8 remains available in the store.
+Wers 1.9 is available in the store. The 2.0 features below are prepared for Apple review and require version 2.0.
 
 ## Kontakt / Contact
 
@@ -15,6 +15,32 @@ Wers 1.9 is an upcoming update. Until it is released after Apple review, version
 **kontakt@appfly.pl** - include your Wers and macOS versions and steps to reproduce the issue. Please use a small example without confidential information.
 
 Sebastian Urbaniak · AppFly | Flying Pixel · [appfly.pl](https://appfly.pl)
+
+## Wers 2.0 - Polski
+
+- **Czytanie / Edycja / Podzielony:** Czytanie chroni Markdown przed zmianami. W Edycji pisz bezpośrednio i zaznacz tekst, aby użyć dymka formatowania. ⌘E przełącza Czytanie i Edycję; osobne Pokaż Markdown odkrywa składnię.
+- **Panele:** przeciągaj separator, zmieniaj rozmiar tekstu oddzielnie i odłącz podgląd do osobnego okna. W splicie jest jeden wspólny spis treści.
+- **Zapis:** autozapis jest domyślnie włączony. Wyłącz go w Ustawieniach, aby zapisywać ręcznie i otrzymywać pytania o niezapisane zmiany. Pasek pokazuje czas zapisu z sekundami. Szkice odzyskiwania są lokalne; nie zastępują zapisu do wybranego pliku. Plik > Szkice i odzyskiwanie otwiera dostępne kopie.
+- **Nowy dokument:** ⌘N tworzy szkic, ⇧⌘N zaczyna od schowka. Pierwsze ⌘S wybiera nazwę i folder. Menu Plik zawiera też Nowy plik TXT.
+- **Wyszukiwanie:** lupka otwiera lub ukrywa pasek. ⌘F ustawia fokus. Dopasowania Markdownu są podświetlane i liczone na bieżąco; w edytorze można rozwinąć Zamień.
+- **YAML:** Informacje o dokumencie pozwalają zmienić tytuł, autora, datę, opis i tagi. Ukrycie YAML w ustawieniach nie usuwa metadanych. Ukryty blok jest pomijany przez wyszukiwanie i zamianę.
+- **PDF:** ⌘P eksportuje Markdown i lokalny HTML. Dla Markdownu wybierz Raport, Minimalny lub Artykuł; twórz i wymieniaj własne style .wersstyle z logo, kolorami i stopką. TXT oraz strony WWW nie są objęte eksportem.
+- **HTML:** edytuj lokalne źródło, porządkuj je przez Formatuj kod (⌥⇧F), używaj numerów linii, kolorowania i zawijania. Podstawowe wskazówki dotyczą HTML, nie audytu CSS, JavaScript ani dostępności. Formatowanie można cofnąć. W podglądzie sprawdzaj breakpointy od 390 px do 4K, własne wymiary i obrót. Dopasuj skaluje prezentację, nie rozmiar CSS.
+- **Obrazy:** otwórz folder zawierający dokument i zasoby. Przy obrazie spoza udostępnionego obszaru przyznaj dostęp do pliku lub folderu przez panel macOS. Zewnętrzne obrazy mogą wymagać internetu.
+
+## Wers 2.0 - English
+
+- **Read / Edit / Split:** Read mode protects Markdown from accidental changes. Edit directly and select text to reveal the formatting toolbar. Command-E switches Read and Edit; Show Markdown reveals syntax separately.
+- **Panes:** resize the divider, adjust text sizes independently and detach the preview to another window. Split View uses one shared table of contents.
+- **Saving:** autosave is enabled by default. Turn it off in Settings for manual saving and unsaved-change prompts. The status bar shows the save time with seconds. Recovery drafts stay local and do not replace saving your chosen file. Use File > Drafts and Recovery to find available drafts.
+- **New documents:** Command-N creates a draft; Shift-Command-N starts from clipboard text. The first Command-S selects a name and folder. File also offers New TXT File.
+- **Search:** the magnifying glass opens or closes search; Command-F focuses it. Markdown matches are highlighted and counted live. Expand Replace in the editor.
+- **YAML:** Document information edits the title, author, date, description and tags. Hiding YAML does not remove metadata. Hidden metadata is excluded from search and replacement.
+- **PDF:** Command-P exports Markdown and local HTML. Markdown offers Report, Minimal and Article, plus custom .wersstyle files with logos, colors and footers. TXT and remote websites are not exported.
+- **HTML:** edit local source with Format Code (Option-Shift-F), line numbers, syntax colors and wrapping. Basic diagnostics cover HTML, not CSS, JavaScript or accessibility. Formatting supports Undo. Preview phone, tablet, laptop, Full HD, 4K or custom dimensions, with rotation and Fit. Fit changes presentation scale, not CSS dimensions.
+- **Images:** open the folder containing the document and resources. For images outside the granted location, authorize the file or folder through the macOS panel. External images may require internet access.
+
+## Instrukcje wcześniejszych wersji / Earlier versions (1.8-1.9)
 
 ## Polski
 
